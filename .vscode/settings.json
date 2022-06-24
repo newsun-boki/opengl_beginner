@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "vector": "cpp",
+        "khrplatform.h": "c",
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
+}

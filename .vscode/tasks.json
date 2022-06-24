@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo Hello",
+            "args": [
+                "-g",
+                "-std=c++17",
+                "-I./include",
+                "-L./lib",
+                "src/\\*.cpp",
+                "src/glad.c",
+                "-lglfw3dll",
+                "-o",
+                "${workspaceFolder}/myprogram.exe"
+            ]
+        }
+    ]
+}
